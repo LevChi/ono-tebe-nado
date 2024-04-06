@@ -9,7 +9,7 @@
 
 .header__links-list {
   display: flex;
-  gap: 24px;
+  gap: 32px;
   line-height: 21px;
   letter-spacing: 0%;
   text-align: left;
@@ -38,7 +38,7 @@
 .address {
   font-style: normal;
   text-align: left;
-  margin-left: auto;
+  margin-left: 193px;
 }
 
 .address a {
@@ -99,7 +99,6 @@
 .aligned-text_right {
   text-align: end;
   padding-left: 585px;
-  
 }
 
 .cover__discription {
@@ -275,7 +274,6 @@
 }
 
 .footer .address {
-
 font-size: 18px;
 font-weight: 400;
 line-height: 24.3px;
@@ -284,7 +282,6 @@ text-align: left;
 margin: 0;
 letter-spacing: 0%;
 }
-
 
 .footer__links-list {
   list-style-type: none;
