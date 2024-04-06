@@ -9,9 +9,9 @@
 
 .header__links-list {
   display: flex;
-  gap: 32px;
+  gap: 34px;
   line-height: 21px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-align: left;
   list-style: circle;
   text-decoration: none;
@@ -29,10 +29,6 @@
 .header__logo-image {
   width: 129.11px;
   height: 104.65px;
-  left: 9.03px;
-  right: 9.86px;
-  top: 1.16px;
-  bottom: -0.81px;
 }
 
 .address {
@@ -41,13 +37,13 @@
   margin-left: 193px;
 }
 
-.address a {
+.address .a1 {
   border-bottom: 1px solid;
   text-decoration: none;
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .overlay {
@@ -69,6 +65,7 @@
 
 .cover__title {
   color: white;
+  text-transform: uppercase;
   font-size: 100px;
   font-weight: 700;
   letter-spacing: 0.3em;
@@ -244,7 +241,7 @@
   font-size: 40px;
   font-weight: 700;
   line-height: 47px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-align: left;
   text-transform: uppercase;
 }
@@ -254,7 +251,7 @@
   flex-direction: column;
 }
 
-.about_p p {
+.about_p .p1 {
   text-align: left;
   padding-top: 10px;
   padding-left: 6px;
@@ -264,11 +261,15 @@
 }
 
 .p_ponizhe {
-  margin-top: 12px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .footer {
-  padding: 193px 50px 0 50px;
+  padding: 180px 50px 88px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -280,7 +281,7 @@ line-height: 24.3px;
 font-style: normal;
 text-align: left;
 margin: 0;
-letter-spacing: 0%;
+letter-spacing: 0;
 }
 
 .footer__links-list {
@@ -288,7 +289,7 @@ letter-spacing: 0%;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-align: center;
 }
 
